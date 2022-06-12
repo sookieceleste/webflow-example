@@ -32,6 +32,22 @@
     {
       "target": "\"terms-of-service.html\"",
       "replace_by": "\"/terms-of-service\""
+    },
+    {
+      "target": "\"perception.html\"",
+      "replace_by": "\"/perception\""
+    },
+    {
+      "target": "\"pinstripe.html\"",
+      "replace_by": "\"/pinstripe\""
+    },
+    {
+      "target": "\"fckpatriarchy.html\"",
+      "replace_by": "\"/fckpatriarchy\""
+    },
+    {
+      "target": "\"404.html\"",
+      "replace_by": "\"/404\""
     }
   ],
   "file_links_replacement": [
@@ -94,6 +110,34 @@
     {
       "name": "terms-of-service",
       "filepath": "terms-of-service.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "perception",
+      "filepath": "perception.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "pinstripe",
+      "filepath": "pinstripe.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "fckpatriarchy",
+      "filepath": "fckpatriarchy.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "404",
+      "filepath": "404.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
